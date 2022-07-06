@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <div class="range_container">
+        <div id="arr_size">
+            <span>Size</span>
+            <input id="arr_range" type="range" min="5" max="200" value="150">
+        </div>
+        <div id="speed">
+        <span>Speed</span>
+        <input id="speed_range" type="range" min="1" max="318" value="50">
+        </div>
+    </div>
+    <div class="container">
+        <div class="bars_container" id="bars_container">
+        
+        </div>
+        <div class="buttons_container">    
+        <button id="randomize_btn">Randomize Array</button>
+        <button id="bubble_sort_btn">Bubble sort</button>
+         <button id="insertion_sort_btn">Insertion Sort</button>
+         <button id="selection_sort_btn">Selection Sort</button>
+         <button id="quick_sort_btn">Quick Sort</button>
+         <button id="merge_sort_btn">Merge Sort</button>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+    <script src="SortingFiles/bubblesort.js"></script>
+    <script src="SortingFiles/insertionsort.js"></script>
+    <script src="SortingFiles/selectionsort.js"></script>
+    <script src="SortingFiles/quicksort.js"></script> 
+    <script src="SortingFiles/mergesort.js"></script>
+</body>
+</html>
